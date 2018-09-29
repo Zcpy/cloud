@@ -25,6 +25,14 @@ a{
 .collecttalent_a_logo{
 	float: left;
 }
+.collecttalent_a_logo_img{
+	filter: gray;
+	filter: grayscale(100%);
+	
+	/*filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffffff, endColorStr=#F3F3F3, GradientType=0);*/
+	-webkit-filter: grayscale(100%);
+}
+
 .collecttalent_a_logo img{
 	border-radius: 50%;
 	width: 60px;
@@ -62,4 +70,11 @@ a{
 }
 .collecttalent_span_b span{
 	display: inline;
+}
+
+
+.divider{
+	margin: 0 3px;
+	height: 10px;
+	color: #D5D5D5;
 }

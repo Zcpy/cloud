@@ -40,6 +40,7 @@ a{
 	margin-top: 20px;
 	width: 250px;
 	height: 36px;
+	border: 1px solid #E4E4E4;
 	outline: none;
 	padding-left: 10px;
 	color: #666666;
@@ -54,6 +55,7 @@ a{
 	margin: 20px 0 0 20px;
 	width: 250px;
 	height: 40px;
+	border: 1px solid #E4E4E4;
 	appearance: none;
 	-moz-appearance:none;
     -webkit-appearance:none;
@@ -66,9 +68,11 @@ a{
 	margin-top: 20px;
 	width: 680px;
 	height: 280px;
+	border: 1px solid #E4E4E4;
 	resize: none;
 	outline: none;
 	padding: 20px 10px;
+	color: #666666;
 }
 .type_year{
 	color: #666666;
@@ -112,6 +116,7 @@ a{
 	width:114px;
 	height:38px;
 	margin-left: 160px;
+	border: 1px solid #E4E4E4;
 	cursor: pointer;
 	outline: none;
 	border: none;

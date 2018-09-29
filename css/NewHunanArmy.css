@@ -102,3 +102,9 @@
 	font-size: 18px;
 	color: #333333;
 }
+
+.divider{
+	margin: 0 20px;
+	height: 14px;
+	color: #D5D5D5;
+}
