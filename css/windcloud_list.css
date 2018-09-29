@@ -183,6 +183,15 @@ body{
 	margin-bottom: 10px;
 }
 
+.wcl_infocontent div:first-child a{
+	font-family: "microsoft yahei";
+	font-size: 20px;
+	color: #333333;
+	margin-top: 14px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
 .wcl_infocontent div + div{
 	font-family: "microsoft yahei";
 	font-size: 14px;

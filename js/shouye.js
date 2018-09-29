@@ -32,7 +32,7 @@ $(".right-arrow").click(function () {
 
 $(function(){
 	$("#main").height('450px');
-$("#main").width('100%');
+	$("#main").width('100%');
 	var myChart = echarts.init(document.getElementById('main'));
 
 	// 指定图表的配置项和数据
@@ -51,7 +51,7 @@ $("#main").width('100%');
 	        itemWidth:16,
 	        itemHight:16,
 	        // left:'right',
-	        right: 500,
+	        right: '30%',
 	        top: 60,
 	        width:200,
 	

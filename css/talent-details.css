@@ -14,13 +14,17 @@ a{
     font-size: 16px;
     text-decoration:none;
 }
-body{
-
-
+@media only screen and (min-width: 1903px) {
+    .rcxq-wrapper{
+        width: 1903px;
+        margin: 0 auto;
+    }
 }
 .header{
     height: 235px;
     background-image: url(../img/bg_rencai.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .hd-content{
     width: 1125px;
@@ -101,15 +105,21 @@ body{
     color: #1874dc;
     font-size: 14px;
     background-color: #fff;
-    padding: 14px 31.5px;
+    padding: 14px 0px;
 }
 .option-2 img{
+    width: 20px;
+    height: 20px;
     float: left;
+    margin-left: 31px;
     margin-right: 4px;
 }
-.option-2 div{
+.option-2 span{
     float: left;
     color: #1874dc;
+    font-size: 16px;
+    line-height: 20px;
+    /*line-height: 48px;*/
 }
 .wrapper-dt{
     width: 100%;
@@ -147,7 +157,7 @@ body{
 .list{
     padding: 13px 20px;
     line-height: 28px;
-    height: 325px;
+    height: 349px;
 }
 .job-description .list,.job-requirements .list,.company-introduction .list{
     height: 105px;
@@ -168,17 +178,18 @@ textarea{
     width: 936px;
     padding: 15px 20px;
     resize: none;
-    border-color: #e4e4e4;
+    border: 1px solid #e4e4e4;
     margin-top: 17px;
+    vertical-align:top;
 }
 .list .personal-assessment{
     width: 100%;
 }
 .list .personal-assessment .pa{
+    display: inline-block;
+    width: 64px;
     font-size: 16px;
     color: #333333;
-    position: relative;
-    top: -116px;
 }
 .item{
     height: 48px;

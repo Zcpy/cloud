@@ -35,9 +35,10 @@ a{
     line-height: 40px;
     margin-right: 20px;
 
-
 }
-
+.job-title span{
+    width: 64px;
+}
 .title span{
     font-size: 18px;
 }

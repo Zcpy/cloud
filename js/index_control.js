@@ -33,6 +33,11 @@ function KoChiPort(){
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
+function ThrowTogether(){
+	$("#index_content").load("ThrowTogether.html");
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
+}
+
 function NewYoung(){
 	$("#index_content").load("NewYoung.html");
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
@@ -54,7 +59,10 @@ function cloud_e_commerce(){
 }
 
 function xph(){
-	$("#index_content").load("xph.html");
+	$("#index_content").load("xph.html",function(result){
+		$result = $(result); 
+        $result.find("script").appendTo('#index_content');
+	});
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
@@ -98,15 +106,20 @@ function gywm(){
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
+function ActivityDetails(){
+	$("#index_content").load("ActivityDetails.html");
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
+}
+
 function adm_left_navigation(){
 	$("#index_content").load("adm_left_navigation.html");
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
-/*function adm_left_navigation(){
+function nor_left_navigation(){
 	$("#index_content").load("nor_left_navigation.html");
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
-}*/
+}
 
 function index(){
 	window.location.reload();

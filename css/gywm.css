@@ -14,8 +14,11 @@ a {
     font-size: 16px;
     text-decoration: none;
 }
-body.html{
-
+@media only screen and (min-width: 1899px) {
+    .gywm-wrapper{
+        width: 1899px;
+        margin: 0 auto;
+    }
 }
 p{
     margin: 0px;

@@ -7,42 +7,52 @@ $(function(){
 
 $(function(){
 	$(".showleftnavigation").hide().load("post_recruitment.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
 });
 
 function post_recruitment(){
 	$(".showleftnavigation").hide().load("post_recruitment.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
 function hiring(){
 	$(".showleftnavigation").hide().load("hiring.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
 function CompanyProfile(){
 	$(".showleftnavigation").hide().load("CompanyProfile.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
 function CollectTalent(){
 	$(".showleftnavigation").hide().load("CollectTalent.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
 function CollectService(){
 	$(".showleftnavigation").hide().load("CollectService.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
 function CollectTask(){
 	$(".showleftnavigation").hide().load("CollectTask.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
 function PublishService_Edit(){
 	$(".showleftnavigation").hide().load("PublishService_Edit.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
 function PublishTask(){
 	$(".showleftnavigation").load("PublishTask.html");
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
 
 function Company_PublisTask_Edit(){
 	$(".showleftnavigation").load("Company_PublisTask_Edit.html");
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 

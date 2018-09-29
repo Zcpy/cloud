@@ -18,6 +18,12 @@ body{
     background-color: #f8f8f8;
     height: 1100px;
 }
+@media only screen and (min-width: 1899px) {
+    .zwxq-wrapper{
+        width: 1899px;
+        margin: 0 auto;
+    }
+}
 .header{
     height: 235px;
     background-image: url(../img/bg_zhiwei.jpg);

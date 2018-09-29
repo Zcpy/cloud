@@ -5,6 +5,12 @@
     font-size: 16px;
     color: #666;
 }
+@media only screen and (min-width: 1899px) {
+    .xph-wrapper{
+        width: 1899px;
+        margin: 0 auto;
+    }
+}
 ul{
     list-style:none;
 }
@@ -14,9 +20,7 @@ a {
     font-size: 16px;
     text-decoration: none;
 }
-body.html{
 
-}
 p{
     margin: 0px;
 }
@@ -29,6 +33,7 @@ p{
     height: 460px;
     background-image: url(../img/szt_bg.png);
     background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .xph-body{
     position: relative;
@@ -119,7 +124,7 @@ p{
     line-height: 14px;
     margin-top: 4px;
     color: #333;
-    width: 650px;
+    width: 500px;
     overflow: hidden;
 }
 .newsbox .last{
