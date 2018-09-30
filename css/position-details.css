@@ -99,20 +99,25 @@ body{
 }
 .option-2 a{
     display: block;
-    padding: 14px 31.5px;
     height: 48px;
     width: 135px;
     color: #1874dc;
     font-size: 14px;
     background-color: #fff;
+    padding: 14px 0px;
 }
 .option-2 img{
+    width: 20px;
+    height: 20px;
     float: left;
+    margin-left: 31px;
     margin-right: 4px;
 }
-.option-2 div{
+.option-2 span{
     float: left;
     color: #1874dc;
+    font-size: 16px;
+    line-height: 20px;
 }
 .wrapper-pd{
     width: 100%;

@@ -180,7 +180,7 @@ p{
     margin-right: 10px;
 }
 
-@media only screen and (min-width: 1903px) {
+@media only screen and (min-width: 1899px) {
 	.wrapper{
 	    width: 1899px;
 	    height: 75px;
@@ -188,6 +188,8 @@ p{
 	    margin: 0 auto;
 	}
 	.nav-second{
+		left: 0;
+		right: 0;
 		width: 1899px;
 		margin: 0 auto;
 	}
@@ -202,3 +204,4 @@ p{
 	    margin: 0 auto;
 	}
 }
+

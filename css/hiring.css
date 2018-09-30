@@ -89,7 +89,7 @@ a{
 .degree-required span:after,.work-experience span:after,.working-place span:after,.salary span:after,.salary-center:after{
     position: relative;
     top: -26px;
-    left:312px;
+    left:302px;
     content: "";
     display: block;
     width: 12px;
@@ -97,10 +97,10 @@ a{
     background-image: url(../img/xiala.png);
 }
 .salary span:after{
-    left:172px;
+    left:162px;
 }
 .salary .salary-center:after{
-    left: 116px;
+    left: 108px;
 }
 .footer{
     color:#666666;

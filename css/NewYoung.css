@@ -199,7 +199,7 @@ a{
     /*position: absolute;*/
     float: left;
     height: 277px;
-    width: 260px;
+ /*   width: 260px;*/
     margin-right: 20px;
     text-align: center;
 }

@@ -338,6 +338,9 @@ ul{
     color: #fff;
     text-decoration: none;
 }
+.more a:hover{
+    color: #fff;
+}
 .newsbox .log{
 
 }

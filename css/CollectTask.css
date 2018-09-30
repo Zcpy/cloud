@@ -5,13 +5,15 @@ body{
 	padding: 0;
 	margin: 0;
 }
-a{
-	outline: none;
-	text-decoration:none; 
-}
+
 #collecttask{
 	width: 900px;
 	background-color: #FFFFFF;
+}
+
+#collecttask a{
+	outline: none;
+	text-decoration:none; 
 }
 
 .collecttask_list{

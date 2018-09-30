@@ -1,0 +1,346 @@
+*{
+	margin: 0px;
+}
+
+body{
+	background: #F8F8F8;	
+}
+
+.p_s_main{
+	width: 900px;
+	background: #FFFFFF;
+}
+
+.p_s_img{
+	position: relative;
+	width: 900px;
+	height: 210px;
+	display: block;
+}
+.p_s_img01{
+	width: 900px;
+	height: 130px;
+}
+
+.p_s_img02{
+	width: 106px;
+	height: 106px;
+}
+
+.p_s_imgcon{
+	position: absolute;
+	width: 118px;
+	height: 118px;
+	border-radius: 50%;
+	border: 6px solid #FFFFFF;
+	top: 40px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.p_s_name{
+	position: absolute;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #666666;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+}
+
+.p_s_basic{
+	font-family: "microsoft yahei";
+	font-weight: bold;
+	font-size: 18px;
+	color: #333333;
+	margin-top: 40px;
+}
+
+.p_s_info{
+	margin-left: 70px;
+}
+
+.p_s_binfo_line{
+	margin-top: 40px ;
+}
+
+.p_s_bifo{
+	display: inline;
+}
+
+.p_s_bifo span{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #333333;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+/****************/
+.p_s_borfont span{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+/****************/
+
+
+.p_s_bifo span span{
+	margin-left: 18px;
+}
+
+.p_s_bifo input{
+	outline: medium;
+	width: 250px;
+	height: 40px;
+	margin: 10px;
+	padding: 10px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+	border: 1px solid #E4E4E4;
+}
+
+/**********/
+.p_s_bifo div{
+	outline: medium;
+	width: 250px;
+	height: 40px;
+	margin: 10px;
+	padding: 10px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+	display: inline-block;
+}
+/**********/
+
+select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	background: url(../img/xiala.png);
+	background-repeat: no-repeat;
+	background-position: 92% 50%;
+	padding: 10px;
+	outline: medium;
+}
+
+.p_s_bifo select{
+	outline: medium;
+	width: 250px;
+	height: 40px;
+	margin: 10px;
+	padding: 10px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+	border: 1px solid #E7E7E7;
+}
+
+@media only screen and (min-width: 2800px) {
+	.p_s_bifo select{
+		outline: medium;
+		width: 250px;
+		height: 40px;
+		margin: 10px;
+		padding: 5px;
+		font-family: "microsoft yahei";
+		font-size: 14px;
+		color: #666666;
+		border: 1px solid #E7E7E7;
+	}
+}
+
+.p_s_bifo textarea{
+	outline: medium;
+	width: 680px;
+	height: 200px;
+	resize: none;
+	margin: 10px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+	padding: 24px;
+	vertical-align: top;
+	line-height: 24px;
+	border: 1px solid #E7E7E7;
+}
+
+/**************/
+.p_s_bifotextarea{
+	outline: medium;
+	width: 680px !important;
+	height: auto !important;
+	resize: none;
+	margin: 10px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+	padding: 24px;
+	vertical-align: top;
+	line-height: 24px;
+}
+/**************/
+
+.p_s_bifotext span{
+	float: left;
+	margin-top: 37px;
+}
+
+.p_s_bifotext textarea{
+	float: left;
+	margin-left: 15px;
+}
+
+.p_s_btn button{
+	border: none;
+	width: 760px;
+	height: 40px;
+	color: #f2f2f2;
+	outline: medium;
+	margin-top: 10px;
+}
+
+.p_s_bifo button span{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #999999;
+}
+
+.p_s_bifospan span{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #333333;
+}
+
+.p_s_bifospan a{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #1874DC;
+	text-decoration: none;
+	outline: medium;
+}
+
+.p_s_binfo_right{
+	float: right;
+	margin-right: 60px;
+}
+
+.p_s_bor{
+	position: relative;
+}
+
+.p_s_icon_str{
+	position: absolute;
+	top: 0px;
+	right: 16px;
+	color: #666666 !important;
+}
+
+.p_s_icon_req1{
+	position: absolute;
+	background-image: url(../img/xiala.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	top:0px;
+	right: 10px;
+}
+
+.p_s_icon_req2{
+	position: absolute;
+	background-image: url(../img/xiala.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	top:0px;
+	right: 15px;
+}
+
+.p_s_imputer{
+	margin-right: -5px !important;
+}
+
+.p_s_winput{
+	width: 100px !important;
+	margin-right: 0px !important;
+}
+
+.p_s_winput1{
+	width: 120px !important;
+	margin-left: 0px !important;
+}
+
+/************/
+.p_s_winput3{
+	width: 40px !important;
+	margin-right: 0px !important;
+}
+
+.p_s_winput4{
+	width: 40px !important;
+	margin-left: 0px !important;
+}
+/***********/
+
+.p_s_wspan{
+	margin-left: 4px !important;
+	margin-right: 4px !important;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #333333;
+}
+
+.p_s_line{
+	width: 756px;
+	height: 0;
+	border-bottom: #E7E7E7 1px dashed;
+	margin-top: 30px;
+}
+
+.p_s_inbl button{
+	background-color: #FFFFFF;
+	border: 1px solid #1874dc;
+	width: 114px;
+	height: 38px;
+	font-family: "microsoft yahei";
+	color: #1874dc;
+	font-size: 14px;
+	outline: medium;
+}
+
+.p_s_inbl button + button{
+	background-color: #1874dc;
+	border: 1px solid #1874dc;
+	width: 114px;
+	height: 38px;
+	font-family: "microsoft yahei";
+	color: #FFFFFF;
+	font-size: 14px;
+	outline: medium;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.p_s_binfo_bottom{
+	padding-bottom: 60px;
+}
+
+.p_s_inbl{
+	display: inline-block;
+}
+
+.p_s_inbl_right{
+	margin-left: 40%;
+}
+
+
+
+

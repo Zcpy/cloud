@@ -6,6 +6,12 @@ body{
 	width: 900px;	
 	background-color: #FFFFFF;
 }
+
+#warp a{
+	outline: none;
+	text-decoration:none; 
+}
+
 .job-box01{
 	padding: 50px 60px 20px 60px;
 }

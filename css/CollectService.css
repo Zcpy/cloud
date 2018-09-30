@@ -5,13 +5,15 @@ body{
 	padding: 0;
 	margin: 0;
 }
-a{
-	outline: none;
-	text-decoration:none; 
-}
+
 #collectservice{
 	width: 900px;
 	background-color: #FFFFFF;
+}
+
+#collectservice a{
+	outline: none;
+	text-decoration:none; 
 }
 
 .service_list{

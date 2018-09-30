@@ -65,8 +65,8 @@ a{
 	-moz-appearance:none;
     -webkit-appearance:none;
 	padding-left: 10px;
-    background: url(../img/xiala.png) no-repeat  right  transparent;
-    background-position-x: 225px;
+    /*background: url(../img/xiala.png) no-repeat  right  transparent;
+    background-position-x: 225px;*/
 }
 
 .taskdiscrible{

@@ -31,8 +31,8 @@ $(".left-arrow").click(function () {
 });
 
 $(function(){
-	// $("#main").height('450px');
-	// $("#main").width('100%');
+	$("#main").height('450px');
+	$("#main").width('1200px');
 	var myChart = echarts.init(document.getElementById('main'));
 
 	// 指定图表的配置项和数据

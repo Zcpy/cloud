@@ -22,9 +22,6 @@ input[type=text]{
     font-size: 14px;
     color: #666666;
     padding-left: 10px;
-    border: 1px solid #e4e4e4;
-}
-input{
     border: none;
 }
 .wrapper-cppf{
@@ -109,6 +106,7 @@ input{
     -webkit-appearance: none;
     -moz-appearance: none;
     padding-left: 10px;
+    border: none;
 }
 .scale span{
     display: block;
@@ -117,20 +115,20 @@ input{
     margin-right: 15px;
 }
 .scale span:after{
-    position: relative;
-    top: -26px;
-    left: 302px;
-    content: "";
-    display: block;
-    width: 12px;
-    height: 12px;
-    background-image: url(../img/xiala.png);
+    /*position: relative;*/
+    /*top: -26px;*/
+    /*left: 302px;*/
+    /*content: "";*/
+    /*display: block;*/
+    /*width: 12px;*/
+    /*height: 12px;*/
+    /*background-image: url(../img/xiala.png);*/
 }
 
 .scale select{
     height: 40px;
     width: 250px;
-    border: 1px solid #e4e4e4;
+    border: none;
     color: #666;
 }
 
@@ -151,11 +149,11 @@ input{
     width:678px;
     height: 200px;
     resize:none;
-    padding: 15px;
+    padding: 0px 15px 0px 9px;
     line-height: 26px;
     color: #666666;
     font-size: 14px;
-    border: 1px solid #e4e4e4 ;
+    border: none;
 }
 
 .body .head{

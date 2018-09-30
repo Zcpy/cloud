@@ -54,3 +54,13 @@ function Preview_PublishTask_Edit(){
 	$(".showleftnavigation").hide().load("Preview_PublisTask_Edit.html").fadeIn();
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
+
+function preview_person_resume(){
+	$(".showleftnavigation").hide().load("preview_person_resume.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
+}
+
+function preview_person_resume(){
+	$(".showleftnavigation").hide().load("preview_person_resume.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
+}
