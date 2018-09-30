@@ -12,7 +12,7 @@ $(function(){
 
 });
 //轮播
-$(".left-arrow").click(function () {
+$(".right-arrow").click(function () {
     if( $(".gx-list").css("left")=='-1400px'){
         $(".gx-list").css('left','0px');
     }
@@ -21,7 +21,7 @@ $(".left-arrow").click(function () {
     });
 
 });
-$(".right-arrow").click(function () {
+$(".left-arrow").click(function () {
     if( $(".gx-list").css("left")=='0px'){
         $(".gx-list").css('left','-1400px');
     }
@@ -31,8 +31,8 @@ $(".right-arrow").click(function () {
 });
 
 $(function(){
-	$("#main").height('450px');
-	$("#main").width('100%');
+	// $("#main").height('450px');
+	// $("#main").width('100%');
 	var myChart = echarts.init(document.getElementById('main'));
 
 	// 指定图表的配置项和数据
@@ -51,7 +51,7 @@ $(function(){
 	        itemWidth:16,
 	        itemHight:16,
 	        // left:'right',
-	        right: '30%',
+	        right: '18%',
 	        top: 60,
 	        width:200,
 	
@@ -105,7 +105,7 @@ $(function(){
 	            type:'pie',
 	            radius: ['59%', '73%'],
 	            avoidLabelOverlap: false,
-	            center:['35%', '50%'],
+	            center:['30%', '50%'],
 	            label: {
 	                normal: {
 	                    show: true,

@@ -30,7 +30,7 @@ function PublishTask(){
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
-function PublisTask_Edit(){
+function Company_PublisTask_Edit(){
 	$(".showleftnavigation").hide().load("PublisTask_Edit.html").fadeIn();
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
@@ -47,5 +47,10 @@ function PublishService(){
 
 function CollectService(){
 	$(".showleftnavigation").hide().load("CollectService.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
+}
+
+function Preview_PublishTask_Edit(){
+	$(".showleftnavigation").hide().load("Preview_PublisTask_Edit.html").fadeIn();
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }

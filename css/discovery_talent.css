@@ -30,6 +30,7 @@ body{
 
 .d_t_divside a{
 	text-decoration: none;
+	outline: medium;
 }
 
 .d_t_divside > img{
@@ -76,7 +77,7 @@ body{
 	font: "microsoft yahei";
 	font-size: 16px;
 	color: #1874DC;
-	float: right;
+	display: block;
 	margin-bottom: 20px;
 }
 
@@ -84,12 +85,13 @@ body{
 	font: "microsoft yahei";
 	font-size: 14px;
 	color: #999999;
-	float: right;
+	display: block;
 }
 
 .d_t_divside div + div span:not(:first-child):before{
 	content: "|";
 	padding-right: 3px;
+	color: #D5D5D5;
 }
 
 
@@ -124,6 +126,7 @@ body{
 	font-size: 15px;
 	color: #333333;
 	text-decoration: none;
+	outline: medium;
 }
 
 .main_active{
@@ -138,6 +141,7 @@ body{
 	font-size: 15px;
 	color: #999999;
 	text-decoration: none;
+	outline: medium;
 }
 
 .d_t_condition_div{
@@ -177,6 +181,7 @@ body{
 	font-size: 16px;
 	color: #999999;
 	text-decoration: none;
+	outline: medium;
 }
 
 .d_t_midachange{
@@ -208,6 +213,7 @@ body{
 	outline: medium;
 	margin-right: 10px;
 	line-height: 44px;
+	outline: medium;
 }
 
 @media only screen and (min-width: 1920px) {
@@ -285,8 +291,8 @@ div.d_t_searchbox select{
 	-webkit-appearance:none;
 	background: #FFFFFF url(../img/yinghui_xiala.png);
 	background-repeat: no-repeat;
-	background-position: 90% 50%;
-	padding-left: 30px;
+	background-position: 80% 50%;
+	padding-left: 20px;
 	border: 1px solid #1874DC;
 	border-right: none;
 }
@@ -308,8 +314,22 @@ div.d_t_searchbox input:nth-child(2):-ms-input-placeholder { /* IE 10+ */
     font-size: 14px;
 }
 
-div.d_t_searchbox input:nth-child(2){
-	width: 690px;
+.d_t_searchline{
+	 float: left;
+	 width: 3px;
+	 height: 46px;
+	 color: #999999;
+	 font-size: 23px;
+	 display: inline-block;
+	 background-color: #FFFFFF;
+	 padding-top: 6px;
+	 border: 1px solid #1874DC;
+	 border-left:none ;
+	 border-right: none;
+}
+
+div.d_t_searchbox input:nth-child(3){
+	width: 687px;
 	height: 46px;
 	outline: medium;
 	border: none;

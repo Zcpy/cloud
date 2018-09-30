@@ -14,6 +14,7 @@ li{
 	color: #333333;
 	font-family: "microsoft yahei";
 	font-size: 16px;
+	font-weight: bold;
 	padding-right: 5%;
 }
 
@@ -33,6 +34,7 @@ li{
 	font-family: "microsoft yahei";
 	color: #ff0000;
 	text-decoration: none;
+	outline: medium;
 }
 
 .p_r_main{

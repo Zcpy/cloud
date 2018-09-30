@@ -46,13 +46,17 @@ function PublishService_Edit(){
 }
 
 function PublishTask(){
-	$(".showleftnavigation").load("PublishTask.html");
+	$(".showleftnavigation").hide().load("PublishTask.html").fadeIn();
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
 
 function Company_PublisTask_Edit(){
-	$(".showleftnavigation").load("Company_PublisTask_Edit.html");
+	$(".showleftnavigation").hide().load("Company_PublisTask_Edit.html").fadeIn();
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
+function Preview_PublishService_Edit(){
+	$(".showleftnavigation").hide().load("Preview_PublishService_Edit.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
+}

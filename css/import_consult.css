@@ -25,10 +25,12 @@ body{
 	font-size: 16px;
 	color: #999999;
 	text-decoration: none;
+	outline: medium;
 }
 
 .ic_infotitle a:not(:first-child){
 	margin-left: 50px;
+	outline: medium;
 }
 
 .ic_infotitlea{
@@ -80,6 +82,7 @@ body{
 	font-size: 20px;
 	color: #333333;
 	text-decoration: none;
+	outline: medium;
 }
 
 .ic_infocontent div:first-child a:hover{
@@ -87,6 +90,7 @@ body{
 	font-size: 20px;
 	color: #1874DC;
 	text-decoration: none;
+	outline: medium;
 }
 
 .ic_infocontent div + div{
@@ -144,6 +148,7 @@ body{
 	outline: medium;
 	margin-right: 10px;
 	line-height: 44px;
+	outline: medium;
 }
 
 @media only screen and (min-width: 1920px) {
@@ -219,6 +224,7 @@ div.ic_pushbar a{
 	text-decoration: none;
 	display: inline-block;
 	width: 222px;
+	outline: medium;
 }
 
 div.ic_pushbar a:hover{
@@ -226,15 +232,15 @@ div.ic_pushbar a:hover{
 	font-size: 14px;
 	color: #1874dc;
 	text-decoration: none;
+	outline: medium;
 }
 
-div.ic_pushbar span{
+div.ic_pushbar span:before{
 	content: url(../img/zixun_jt.png);
 	width: 8px;
 	height: 8px;
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 5px;
 }
 
 div.ic_searchbar{

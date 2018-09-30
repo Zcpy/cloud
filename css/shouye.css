@@ -2,9 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: "Microsoft YaHei UI";
-    font-size: 16px;
-    color: #666;
-    background-repeat: no-repeat;
+}
+.sy-wrapper{
 
 }
 @media only screen and (min-width: 1899px) {
@@ -13,22 +12,22 @@
         margin: 0 auto;
     }
 }
-.title{
+.sy-wrapper .title{
     text-align: center;
 }
 ul{
     list-style:none;
 }
-a {
+.sy-wrapper a {
     color: #333;
     font-family: "Microsoft YaHei UI";
     font-size: 16px;
     text-decoration: none;
 }
-a:hover{
+.sy-wrapper a:hover{
     color:#333;
 }
-p{
+.sy-wrapper p{
     margin: 0px;
 }
 .shuffling{
@@ -316,6 +315,7 @@ p{
 }
 .newsbox .watch-num{
     float: right;
+    color: #fff;
 }
 .newsbox p{
     font-size: 14px;
@@ -355,9 +355,14 @@ p{
     /* margin-top: 60px; */
     color: #333;
 }
+.pie{
+    height: 460px;
+    width: 1899px;
+}
 #main{
-    width: 1903px;
+    width: 1200px;
     height:450px;
+    margin: 0 auto;
     /*padding-right: 500px;*/
 
 }

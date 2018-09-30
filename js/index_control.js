@@ -136,3 +136,4 @@ function change_page(){
 $(function(){
 	$("#foot").hide().fadeIn(5000);
 })
+

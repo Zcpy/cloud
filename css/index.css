@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: "Microsoft YaHei UI";
-   /* font-size: 16px;*/
-    /*color: #666;*/
 }
 ul{
     list-style:none;
@@ -14,9 +12,11 @@ ul{
     font-family: "Microsoft YaHei UI";
     font-size: 16px;
     text-decoration: none;
+    outline: medium;
 }
 a:hover{
     color:#333;
+    outline: medium;
 }
 p{
     margin: 0px;
@@ -52,10 +52,12 @@ p{
     line-height: 75px;
     text-align:center;
     text-decoration:none;
+    outline: medium;
 }
 .nav-center li a:hover{
     background-color: #f9f9f9;
     border-top: 2px solid #1874dc;
+    outline: medium;
 }
 .nav-right{
     width: 190px;
@@ -78,6 +80,7 @@ p{
     line-height: 75px;
     text-align:center;
     text-decoration:none;
+    outline: medium;
 }
 .nav-second{
     position: absolute;
@@ -104,7 +107,7 @@ p{
     height: 40px;
     width: 240px;
     display: block;
-
+	outline: medium;
 }
 
 .ns-item .logo{

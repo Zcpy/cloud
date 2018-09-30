@@ -4,8 +4,6 @@ body{
 *{
     margin: 0;
     padding: 0;
-    font-family: "Microsoft YaHei UI";
-    font-size: 16px;
 }
 ul{
     list-style:none;
@@ -37,7 +35,7 @@ a{
 
 }
 .job-title span{
-    width: 64px;
+    width: 56px;
 }
 .title span{
     font-size: 18px;
@@ -57,7 +55,9 @@ a{
 .head>div{
     height: 60px;
 }
-
+.head span{
+    font-size: 14px;
+}
 .head .job-title input,.head div select{
     float: left;
     display: block;

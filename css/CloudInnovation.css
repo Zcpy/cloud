@@ -16,6 +16,7 @@
 .cloudinnovation_logo{
 	height: 460px;
 	background-image: url(../img/ycl_bg.png);
+	background-size: 100% 100%;
 }
 
 .cloudinnovation_industry{

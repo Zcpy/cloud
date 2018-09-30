@@ -119,6 +119,20 @@ select{
 	border: 1px solid #E7E7E7;
 }
 
+@media only screen and (min-width: 2800px) {
+	.p_s_bifo select{
+		outline: medium;
+		width: 250px;
+		height: 40px;
+		margin: 10px;
+		padding: 5px;
+		font-family: "microsoft yahei";
+		font-size: 14px;
+		color: #666666;
+		border: 1px solid #E7E7E7;
+	}
+}
+
 .p_s_bifo textarea{
 	outline: medium;
 	width: 680px;
@@ -170,6 +184,7 @@ select{
 	font-size: 14px;
 	color: #1874DC;
 	text-decoration: none;
+	outline: medium;
 }
 
 .p_s_binfo_right{

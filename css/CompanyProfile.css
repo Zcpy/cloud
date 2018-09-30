@@ -75,6 +75,9 @@ input[type=text]{
     width: 760px;
     margin: 0 auto;
 }
+.body span{
+    font-size: 14px;
+}
 .body .body-top{
     border-bottom: 1px dashed #d5d5d5;
 }

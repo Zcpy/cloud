@@ -1,6 +1,6 @@
 
-$("#main").height('580px');
-$("#main").width('1899px');
+// $("#main").height('580px');
+// $("#main").width('1899px');
 var myChart = echarts.init(document.getElementById('main'));
 
 // 指定图表的配置项和数据
@@ -18,7 +18,7 @@ option = {
         itemWidth:16,
         itemHight:16,
         // left:'right',
-        right: '30%',
+        right: '18%',
         top: 120,
         width:200,
         height:'',
@@ -70,7 +70,7 @@ option = {
             type:'pie',
             radius: ['50%', '62%'],
             avoidLabelOverlap: false,
-            center:['40%', '50%'],
+            center:['32%', '50%'],
             label: {
                 normal: {
                     show: true,

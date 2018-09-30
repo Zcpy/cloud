@@ -3,7 +3,8 @@
 	padding: 0px;
 }
 body{
-	background: #F8F8F8 ;	
+	background: #F8F8F8 ;
+	overflow-y: scroll;	
 }
 
 .nl_n_master{
@@ -11,7 +12,6 @@ body{
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 100px;
-	position: relative;
 }
 
 .nl_n_main{
@@ -22,7 +22,6 @@ body{
 	float: left;
 	padding-bottom: 40px;
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.06);
-	position: fixed;
 }
 
 .nl_n_content div:first-child{
@@ -40,6 +39,7 @@ body{
 	color: #666666;
 	padding-left: 28px;
 	text-decoration: none;
+	outline: medium;
 }
 
 .nl_n_content div:not(:first-child){
@@ -60,10 +60,12 @@ body{
 
 .nl_n_active span a{
 	color: #FFFFFF !important;
+	outline: medium;
 }
 
 .showleftnavigation{
 	display: inline-block;
 	float: right;
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.06);
+	outline: medium;
 }

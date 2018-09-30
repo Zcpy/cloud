@@ -5,15 +5,22 @@ body{
 	padding: 0;
 	margin: 0;
 	font-family: "microsoft yahei";
-	font-size: 14px;
+
 }
 a{
 	outline: none;
 	text-decoration:none; 
 }
+
+.task_list a{
+	outline: none;
+	text-decoration:none; 
+}
+
 #publishtask{
 	width: 900px;
 	background-color: #FFFFFF;
+	font-size: 14px;
 }
 .task_list{
 	padding: 50px 60px;
@@ -61,6 +68,12 @@ a{
 	margin: 0 60px 50px 0;
 	float: right;
 }
+
+.publish_btn a{
+	outline: none;
+	text-decoration:none;
+}
+
 .publish_btn input{
 	width:114px;
 	height:38px;

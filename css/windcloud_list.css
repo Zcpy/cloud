@@ -132,11 +132,13 @@ body{
 	font-size: 16px;
 	color: #999999;
 	text-decoration: none;
+	outline: medium;
 }
 
 .wcl_infotitle a:first-child + a{
 	margin-left: 50px;
 	margin-right: 50px;
+	outline: medium;
 }
 
 .wcl_infotitlea{
