@@ -60,3 +60,8 @@ function Preview_PublishService_Edit(){
 	$(".showleftnavigation").hide().load("Preview_PublishService_Edit.html").fadeIn();
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
+
+function preview_CompanyProfile(){
+	$(".showleftnavigation").hide().load("preview_CompanyProfile.html").fadeIn();
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
+}
