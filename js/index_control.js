@@ -1,139 +1,180 @@
+var sendId = "#index_content";
+
 $(function(){
-	$("#index_content").load("shouye.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	index();
+	$("#foot").hide().fadeIn(5000);
 });
 
 function import_consult(){
-	$("#index_content").load("import_consult.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "import_consult.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function InformationDetails(){
-	$("#index_content").load("InformationDetails.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "InformationDetails.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function szt(){
-	$("#index_content").load("szt.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "szt.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function everybody_create_port(){
-	$("#index_content").load("everybody_create_port.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "everybody_create_port.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function CloudInnovation(){
-	$("#index_content").load("CloudInnovation.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "CloudInnovation.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function KoChiPort(){
-	$("#index_content").load("KoChiPort.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "KoChiPort.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function ThrowTogether(){
-	$("#index_content").load("ThrowTogether.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "ThrowTogether.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function NewYoung(){
-	$("#index_content").load("NewYoung.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "NewYoung.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function NewHunanArmy(){
-	$("#index_content").load("NewHunanArmy.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "NewHunanArmy.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function windcloud_list(){
-	$("#index_content").load("windcloud_list.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "windcloud_list.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function cloud_e_commerce(){
-	$("#index_content").load("cloud_e_commerce.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "cloud_e_commerce.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function xph(){
-	$("#index_content").load("xph.html",function(result){
-		$result = $(result); 
-        $result.find("script").appendTo('#index_content');
-	});
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "xph.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function looking_job(){
-	$("#index_content").load("looking-job.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "looking-job.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function position_details(){
-	$("#index_content").load("position-details.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "position-details.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function CompanyDetails(){
-	$("#index_content").load("CompanyDetails.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "CompanyDetails.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function discovery_talent(){
-	$("#index_content").load("discovery_talent.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "discovery_talent.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function talent_details(){
-	$("#index_content").load("talent-details.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "talent-details.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function find_task(){
-	$("#index_content").load("find_task.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "find_task.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function find_server(){
-	$("#index_content").load("find_server.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "find_server.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function gywm(){
-	$("#index_content").load("gywm.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "gywm.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function ActivityDetails(){
-	$("#index_content").load("ActivityDetails.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "ActivityDetails.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function adm_left_navigation(){
-	$("#index_content").load("adm_left_navigation.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "adm_left_navigation.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function nor_left_navigation(){
-	$("#index_content").load("nor_left_navigation.html");
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "nor_left_navigation.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function index(){
-	window.location.reload();
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
+	var sendUrl = "shouye.html";
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
 function change_page(){
-	var options = $("#search_head option:selected").val();
-	$("#index_content").load(options);
-	$("html,body").finish().animate({"scrollTop":"0px"},0);
-	
+	var sendUrl = $("#search_head option:selected").val();
+	urlLoad(sendId,sendUrl);
+//	addhistory(sendUrl);
 }
 
-$(function(){
-	$("#foot").hide().fadeIn(5000);
-})
 
+function urlLoad(sendId,sendUrl){
+	$(sendId).load(sendUrl);
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
+}
+
+function addhistory(sendUrl){
+	var state = {url:sendUrl};
+//	window.history.replaceState(state,"",sendUrl);
+	window.history.pushState(state,"",sendUrl);
+	console.log(history.length);
+}
+
+window.onpopstate = function(){
+	var currentUrl = window.history.state.url;
+	console.log(currentUrl);
+	urlLoad(sendId,currentUrl);
+}
+
+//window.onunload = function(){
+//	var currentUrl = window.history.state.url;
+//	window.location.href = 
+//}

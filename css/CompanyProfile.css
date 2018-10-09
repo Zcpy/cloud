@@ -189,7 +189,7 @@ input{
     line-height: 40px;
     width: 300px;
 }
-.address span{
+.wrapper-cppf .address span{
     width: 42px;
 }
 .head>.address input{
