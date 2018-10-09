@@ -7,6 +7,7 @@ a{
 	outline: none;
 	text-decoration:none; 
 }
+select::-ms-expand{ display: none; };
 #pbservice{
 	width: 900px;
 	background-color:#FFFFFF;
@@ -35,6 +36,7 @@ a{
 .pbdiscrible01{
 	margin-bottom: 20px;
 }
+/*.pbdiscrible02 select::-ms-expand{ display: none; };*/
 .pbdiscrible02 input{
 	margin-left: 20px;
 	margin-top: 20px;

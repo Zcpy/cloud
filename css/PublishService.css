@@ -9,6 +9,7 @@
 	font-size: 14px;
 	color: #333333;	
 }
+select::-ms-expand{ display: none; };
 .pbheader{
 	text-align: center;
 	position: relative;

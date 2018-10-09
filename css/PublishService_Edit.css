@@ -10,6 +10,7 @@ a{
 	outline: none;
 	text-decoration:none; 
 }
+select::-ms-expand{ display: none; };
 #pbservice{
 	width: 900px;
 	background-color: #FFFFFF;
@@ -106,7 +107,7 @@ a{
 .pbfoot_btn02 input{
 	width:114px;
 	height:38px;
-	margin-left: 30px;
+	margin-left: 20px;
 	border: 1px solid #E4E4E4;
 	cursor: pointer;
 	outline: none;

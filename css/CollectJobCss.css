@@ -25,6 +25,13 @@ body{
 	box-sizing: border-box;
 	border-bottom: 1px #E7E7E7 dashed ;
 }
+
+.job-list_end{
+	font-family: "microsoft yahei";
+	height: 80px;
+	position: relative;
+	box-sizing: border-box;
+}
 a{
 	text-decoration: none;
 }
