@@ -7,12 +7,16 @@ $(".ns-item").hover(function(){
 for(var n=0;n<4;n++){
     (function(n){
         $(".nav-center").find("a").eq(n+1).hover(function(){
+            $(this).addClass("index-nav-hover");
             $(".nav-second").eq(n).show();
         },function () {
+            $(this).removeClass("index-nav-hover");
             $(".nav-second").eq(n).hover(function () {
-                $(".nav-second").eq(n).show();
+                $(this).show();
+                $(".nav-center").find("a").eq(n+1).addClass("index-nav-hover");
             },function () {
-                $(".nav-second").hide();
+                $(this).hide();
+                $(".nav-center").find("a").eq(n+1).removeClass("index-nav-hover");
             })
             $(".nav-second").hide();
         });

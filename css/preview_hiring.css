@@ -70,7 +70,8 @@ a{
     font-size: 14px;
     color: #666666;
     padding-left: 10px;
-    border: 1px solid #e4e4e4;
+    border: none;
+    background-color: #fff;
 }
 .head .job-title input{
     height: 36px;
@@ -95,7 +96,7 @@ select::-ms-expand{ display: none; }
     top: -26px;
     left:302px;
     content: "";
-    display: block;
+    /*display: block;*/
     width: 12px;
     height: 12px;
     background-image: url(../img/xiala.png);
@@ -163,7 +164,8 @@ select::-ms-expand{ display: none; }
     line-height: 26px;
     color: #666666;
     font-size: 14px;
-    border: 1px solid #e4e4e4;
+    border: none;
+    background-color: #fff;
     overflow:auto;
 }
 .h-foot{

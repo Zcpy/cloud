@@ -25,6 +25,7 @@ body{
 .header{
     height: 235px;
     background-image: url(../img/bg_zhiwei.jpg);
+    /*margin-top: 75px;*/
 }
 .hd-content{
     width: 1125px;

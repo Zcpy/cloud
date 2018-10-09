@@ -22,9 +22,17 @@ p{
     margin: 0px;
 }
 .wrapper{
-    width: 100%;
+    width: 1899px;
     height: 75px;
     background-color: #fff;
+    position:fixed;
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,.1);
+    /*box-shadow: 0px 3px 3px rgba(0,0,0,.1);*/
+    z-index:110;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
 }
 
 .nav{
@@ -54,7 +62,7 @@ p{
     text-decoration:none;
     outline: medium;
 }
-.nav-center li a:hover{
+.index-nav-hover{
     background-color: #f9f9f9;
     border-top: 2px solid #1874dc;
     outline: medium;

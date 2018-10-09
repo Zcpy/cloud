@@ -13,6 +13,20 @@ body{
 	margin-top: 30px;
 }
 
+.wcl_hidden {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.wcl_head img{
+	transition: all 0.5s;
+}
+
+.wcl_head img:hover{
+	transform: scale(1.2);
+}
+
 .wcl_headimg_1{
 	width: 500px;
 	height: 360px;
@@ -166,6 +180,14 @@ body{
 	height: 160px;
 	display: inline-block;
 	float: left;
+}
+
+.wcl_infoimg img{
+	transition: all 0.5s;
+}
+
+.wcl_infoimg img:hover{
+	transform: scale(1.2);
 }
 
 .wcl_infocontent{

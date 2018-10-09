@@ -8,7 +8,6 @@
 .xph-wrapper a {
     color: #333;
     font-family: "Microsoft YaHei UI";
-    font-size: 16px;
     text-decoration: none;
 }
 @media only screen and (min-width: 1899px) {
@@ -29,7 +28,7 @@ ul{
     background-color: #f8f8f8;
 }
 .xph-head{
-    width: 100%;
+    width: 1899px;
     height: 460px;
     background-image: url(../img/szt_bg.png);
     background-repeat: no-repeat;

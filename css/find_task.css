@@ -365,6 +365,8 @@ div.f_t_searchbox select{
 	padding-left: 20px;
 }
 
+div.f_t_searchbox select::-ms-expand { display: none; }
+
 div.f_t_searchbox input:nth-child(2)::-webkit-input-placeholder{ /* WebKit*/
     color:    #999999;
     font-size: 14px;
@@ -386,7 +388,7 @@ div.f_t_searchbox input:nth-child(2):-ms-input-placeholder { /* IE 10+ */
 	 float: left;
 	 width: 3px;
 	 height: 46px;
-	 color: #999999;
+	 color: #f2f2f5;
 	 font-size: 23px;
 	 display: inline-block;
 	 background-color: #FFFFFF;
@@ -400,7 +402,7 @@ div.f_t_searchbox input:nth-child(3){
 	border: none;
 	font-family: "microsoft yahei";
 	font-size: 14px;
-	color: #999999;
+	color: #333333;
 	float: left;
 	padding-left: 30px;
 }

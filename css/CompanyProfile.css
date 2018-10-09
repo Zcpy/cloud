@@ -53,13 +53,11 @@ input{
 }
 .head .lg img{
     position: absolute;
-    top: -1px;
+    top: 0px;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
-    width: 106px;
-    height: 106px;
 
 }
 .head .lg .name{
@@ -81,7 +79,7 @@ input{
     font-size: 14px;
 }
 .body .body-top{
-    border-bottom: 1px dashed #d5d5d5;
+    border-bottom: 1px dashed #e7e7e7;
 }
 .body .body-top>div{
     /*float: left;*/
@@ -133,7 +131,7 @@ input{
     border: 1px solid #e4e4e4;
     color: #666;
 }
-
+.scale select::-ms-expand{ display: none; }
 .introduction{
     height: 200px;
     margin-bottom: 30px;

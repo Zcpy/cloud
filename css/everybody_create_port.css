@@ -210,7 +210,13 @@
 	background-color: #F8F8F8;
 }
 
-.eb_cc_bottomtable table tbody{
+@media only screen and (min-width: 3000px) {
+	.eb_cc_bottomtable table{
+		border-spacing: 60px 10px;
+	}
+}
+
+.eb_cc_bottomtable tbody td:first-child,.eb_cc_bottomtable tbody td:first-child+td{
 	text-align: left;
 }
 
@@ -218,6 +224,18 @@
 	font-family: "microsoft yahei";
 	font-size: 14px;
 	color: #999999;
+}
+
+.eb_cc_bottomtable thead td:first-child{
+	padding-right: 10%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.eb_cc_bottomtable thead td:first-child+td{
+	padding-right: 5%;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .eb_cc_bottomdiv_1,.eb_cc_bottomdiv_2,.eb_cc_bottomdiv_3{

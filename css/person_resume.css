@@ -119,6 +119,8 @@ select{
 	border: 1px solid #E7E7E7;
 }
 
+div.p_s_bifo select::-ms-expand { display: none; }
+
 @media only screen and (min-width: 2800px) {
 	.p_s_bifo select{
 		outline: medium;
@@ -162,9 +164,9 @@ select{
 	border: none;
 	width: 760px;
 	height: 40px;
-	color: #f2f2f2;
 	outline: medium;
 	margin-top: 10px;
+	background-color: #F2F2F2;
 }
 
 .p_s_bifo button span{

@@ -15,26 +15,20 @@ li{
 	font-family: "microsoft yahei";
 	font-size: 16px;
 	font-weight: bold;
-	padding-right: 5%;
 }
 
 .p_r_time{
 	color: #999999;
 	font-family: "microsoft yahei";
 	font-size: 14px;
+	float: right;
+	padding-right: 45%;
 }
 
 .p_r_ul a{
 	font-family: "microsoft yahei";
 	color: #1874dc;
 	text-decoration: none;
-}
-
-.p_r_ul li:first-child + li + li a{
-	font-family: "microsoft yahei";
-	color: #ff0000;
-	text-decoration: none;
-	outline: medium;
 }
 
 .p_r_main{
@@ -72,6 +66,13 @@ li{
 	padding-left: 10px;
 }
 
+.p_r_delete a{
+	font-family: "microsoft yahei";
+	color: #ff0000;
+	text-decoration: none;
+	outline: medium;
+}
+
 .p_r_view:before{
 	content: "|";
 	color: #D5D5D5;
@@ -85,8 +86,6 @@ li{
 }
 
 .p_r_btnd{
-	/*margin-top: 40px;
-	margin-bottom: 100px;*/
 	position: absolute;
 	right: 60px;
 	bottom: 80px;

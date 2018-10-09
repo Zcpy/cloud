@@ -72,7 +72,7 @@ option = {
             type:'pie',
             radius: ['50%', '62%'],
             avoidLabelOverlap: false,
-            center:['32%', '50%'],
+            center:['35%', '50%'],
             label: {
                 normal: {
                     show: true,

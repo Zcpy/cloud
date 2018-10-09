@@ -14,17 +14,19 @@ a{
     font-size: 16px;
     text-decoration:none;
 }
-@media only screen and (min-width: 1903px) {
+@media only screen and (min-width: 1899px) {
     .rcxq-wrapper{
-        width: 1903px;
+        width: 1899px;
         margin: 0 auto;
     }
 }
 .header{
     height: 235px;
+    width: 1899px;
     background-image: url(../img/bg_rencai.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    /*margin-top: 75px;*/
 }
 .hd-content{
     width: 1125px;
