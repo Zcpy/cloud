@@ -9,6 +9,32 @@
 	font-size: 14px;
 	color: #333333;	
 }
+.pbheader{
+	text-align: center;
+	position: relative;
+}
+.pbimg01{
+	height: 130px;
+	width: 100%;
+}
+.pbimg02{
+	width: 106px;
+	height: 106px;
+	border-radius: 50%;
+	position: absolute;
+	top: 70px;
+	border: 6px solid #FFFFFF;
+	margin-left: -55px;
+}
+.pbform{
+	margin: 100px 50px 40px 50px;
+}
+/*#pbservice{
+	width: 900px;
+	background-color:#FFFFFF;
+	font-size: 14px;
+	color: #333333;	
+}
 select::-ms-expand{ display: none; };
 .pbheader{
 	text-align: center;
@@ -24,15 +50,12 @@ select::-ms-expand{ display: none; };
 	border-radius: 50%;
 	position: absolute;
 	top: 70px;
-	left: 445px;
-	bottom: 0;
-	right: 0;
 	border: 6px solid #FFFFFF;
 	margin-left: -55px;
 }
 .pbform{
 	margin: 100px 50px 0px 50px;
-}
+}*/
 .pbdiscrible01{
 	margin-bottom: 20px;
 }

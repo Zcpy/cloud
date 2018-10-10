@@ -16,7 +16,6 @@ a{
 	font-size: 14px;
 	color: #333333;	
 }
-select::-ms-expand{ display: none; };
 .pbheader{
 	text-align: center;
 	position: relative;
@@ -36,6 +35,7 @@ select::-ms-expand{ display: none; };
 .pbform{
 	margin: 100px 50px 40px 50px;
 }
+
 .pbdiscrible01{
 	margin-bottom: 20px;
 }

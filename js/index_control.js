@@ -179,3 +179,4 @@ function change_page(){
 	urlLoad(sendId,sendUrl);
 	addhistory(sendUrl);
 }
+
