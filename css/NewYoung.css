@@ -96,6 +96,12 @@ a{
 	float: left;
 	width: 400px;
 }
+
+.NewYoung_GuestTeam_img,.NewYoung_Elite_img{
+	overflow: hidden;
+}
+
+
 .NewYoung_GuestTeam_b{
 	height: 40px;
 	background-color: black;
@@ -202,6 +208,20 @@ a{
  /*   width: 260px;*/
     margin-right: 20px;
     text-align: center;
+}
+.NewYoung_gx-picture{
+	overflow: hidden;
+}
+
+.NewYoung_gx-picture img ,.NewYoung_GuestTeam_a img , .NewYoung_GuestTeam_d img,.NewYoung_Elite_img img{
+	-o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.NewYoung_gx-picture img:hover,.NewYoung_GuestTeam_a img:hover,.NewYoung_GuestTeam_d img:hover,.NewYoung_Elite_img img:hover{
+	transform: scale(1.2);
 }
 .NewYoung_gx-text{
     color: #333;

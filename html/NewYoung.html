@@ -30,7 +30,7 @@
 				
 				<div class="NewYoung_hzgx_box">
 					<div class="NewYoung_hzgx">
-		                <div class="left-arrow"><img src="../img/hezuogaoxiao05.png" alt=""></div>
+		                <div class="left-arrow"><img src="../img/hezuogaoxiao_z.png" alt=""></div>
 		                <div class="right-arrow"><img src="../img/hezuogaoxiao06.png" alt=""></div>
 		            </div>
 		            <div class="NewYoung_show">
@@ -94,7 +94,10 @@
 				<!--图片介绍-->
 				<div class="NewYoung_GuestTeam_define">
 					<div class="NewYoung_GuestTeam_a">
-						<img src="../img/chuangketuandui01.png"/>
+						<div class="NewYoung_GuestTeam_img">
+							<img src="../img/chuangketuandui01.png"/>
+						</div>
+						
 						<a href="javascript:void(0)">
 							<div class="NewYoung_GuestTeam_b">		
 							</div>
@@ -105,7 +108,9 @@
 					</div>
 					<div class="NewYoung_GuestTeam_d">
 						<div>
-							<img src="../img/chuangketuandui02.png"/>
+							<div class="NewYoung_GuestTeam_img">
+								<img src="../img/chuangketuandui02.png"/>
+							</div>
 							<a href="javascript:void(0)">
 								<div class="NewYoung_GuestTeam_b">		
 								</div>
@@ -115,7 +120,9 @@
 							</a>
 						</div>
 						<div style="margin-top: -54px;">
-							<img src="../img/chuangketuandui03.png"/>
+							<div class="NewYoung_GuestTeam_img">
+								<img src="../img/chuangketuandui03.png"/>
+							</div>
 							<a href="javascript:void(0)">
 								<div class="NewYoung_GuestTeam_b">		
 								</div>
@@ -127,7 +134,9 @@
 					</div>
 					<div class="NewYoung_GuestTeam_d">
 						<div>
-							<img src="../img/chuangketuandui04.png"/>
+							<div class="NewYoung_GuestTeam_img">
+								<img src="../img/chuangketuandui04.png"/>
+							</div>
 							<a href="javascript:void(0)">
 								<div class="NewYoung_GuestTeam_b">		
 								</div>
@@ -137,7 +146,9 @@
 							</a>
 						</div>
 						<div style="margin-top: -54px;">
-							<img src="../img/chuangketuandui05.png"/>
+							<div class="NewYoung_GuestTeam_img">
+								<img src="../img/chuangketuandui05.png"/>
+							</div>
 							<a href="javascript:void(0)">
 								<div class="NewYoung_GuestTeam_b">		
 								</div>
@@ -163,7 +174,7 @@
 				<!--云创精英描述-->
 				<div class="NewYoung_Elite_describle">
 					<div class="NewYoung_Elite_a">
-						<div >
+						<div class="NewYoung_Elite_img">
 							<img src="../img/yunchuangjingying01.png" />
 						</div>
 						<div class="NewYoung_Edite_name">
@@ -172,7 +183,7 @@
 						</div>
 					</div>
 					<div class="NewYoung_Elite_a">
-						<div >
+						<div class="NewYoung_Elite_img">
 							<img src="../img/yunchuangjingying04.png" />
 						</div>
 						<div class="NewYoung_Edite_name">
@@ -181,7 +192,7 @@
 						</div>
 					</div>
 					<div class="NewYoung_Elite_a">
-						<div >
+						<div class="NewYoung_Elite_img">
 							<img src="../img/yunchuangjingying02.png" />
 						</div>
 						<div class="NewYoung_Edite_name">
@@ -190,7 +201,7 @@
 						</div>
 					</div>
 					<div class="NewYoung_Elite_a">
-						<div >
+						<div class="NewYoung_Elite_img">
 							<img src="../img/yunchuangjingying03.png" />
 						</div>
 						<div class="NewYoung_Edite_name">
@@ -206,6 +217,11 @@
 	<link rel="stylesheet" href="../css/NewYoung.css" />
 	
 	<script type="text/javascript">
+		$(".right-arrow").hover(function () {
+			$(this).find("img").attr("src","../img/hezuogaoxiao_02y.png");
+		},function () {
+		    $(this).find("img").attr("src","../img/hezuogaoxiao06.png");
+		});
 		$(".right-arrow").click(function () {
  			if( $(".NewYoung_gx-list").css("left")=='-1400px'){
        		 $(".NewYoung_gx-list").css('left','0px');
@@ -213,6 +229,11 @@
    			 $(".NewYoung_gx-list").animate({left:'-=280px'},30);
 		});
 		
+		$(".left-arrow").hover(function () {
+		    $(this).find("img").attr("src","../img/hezuogaoxiao05.png");
+		},function () {
+		    $(this).find("img").attr("src","../img/hezuogaoxiao_z.png");
+		});
 		$(".left-arrow").click(function () {
    		 if( $(".NewYoung_gx-list").css("left")=='0px'){
   	      $(".NewYoung_gx-list").css('left','-1400px');
