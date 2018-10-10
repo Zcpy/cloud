@@ -6,6 +6,10 @@ body{
 	overflow-y: scroll;
 }
 
+.al_n_master_head{
+	margin-top: 105px;
+}
+
 .al_n_master{
 	width: 1200px;
 	margin: 0 auto;

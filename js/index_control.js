@@ -16,11 +16,6 @@ window.onpopstate = function(){
 	urlLoad(sendId,currentUrl);
 }
 
-$(function(){
-	index();
-	$("#foot").hide().fadeIn(5000);
-});
-
 function index(){
 	var sendUrl = "shouye.html";
 	if(window.history.state){
@@ -29,6 +24,11 @@ function index(){
 	urlLoad(sendId,sendUrl);
 	addhistory(sendUrl);
 }
+
+$(function(){
+	index();
+	$("#foot").hide().fadeIn(5000);
+});
 
 function shouye(){
 	var sendUrl = "shouye.html";
@@ -172,11 +172,6 @@ function nor_left_navigation(){
 	var sendUrl = "nor_left_navigation.html";
 	urlLoad(sendId,sendUrl);
 	addhistory(sendUrl);
-}
-
-function index(){
-	var sendUrl = "shouye.html";
-	urlLoad(sendId,sendUrl);
 }
 
 function change_page(){

@@ -7,7 +7,9 @@ body{
 	overflow-y: scroll;	
 }
 
-
+.nl_n_master_head{
+	margin-top: 105px;
+}
 
 .nl_n_master{
 	width: 1200px;

@@ -188,6 +188,15 @@ p{
     margin-right: 10px;
 }
 
+.index_content_head{
+	margin-top: 75px;
+}
+
+.index_content{
+	width: 1899px;
+	margin: 0 auto;
+}
+
 @media only screen and (min-width: 1899px) {
 	.wrapper{
 	    width: 1899px;

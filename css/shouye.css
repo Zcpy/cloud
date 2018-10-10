@@ -604,6 +604,11 @@ ul{
     color: #333;
 
 }
+.position-top .position-tl a{
+	float: none;
+	font-size: inherit;
+	color: inherit;
+}
 .position-top a{
     font-size: 14px;
     color: #999;
@@ -677,6 +682,11 @@ ul{
     font-size: 18px;
     color: #333;
 
+}
+.talent-top .talent-tl a{
+	float: none;
+	font-size: inherit;
+	color: inherit;
 }
 .talent-top a{
     font-size: 14px;
