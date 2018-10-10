@@ -11,7 +11,8 @@ a{
 	background-color: #F8F8F8;
 	font-family: "microsoft yahei";
 	font-size: 14px;
-	color: #333333;	
+	color: #333333;
+	padding-bottom: 80px;	
 }
 .clearfix{
 	clear: both;
