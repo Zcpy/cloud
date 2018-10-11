@@ -61,7 +61,7 @@ $(function(){
 	        itemWidth:16,
 	        itemHight:16,
 	        // left:'right',
-	        right: '18%',
+	        right: '7%',
 	        top: 60,
 	        width:200,
 	
@@ -115,7 +115,7 @@ $(function(){
 	            type:'pie',
 	            radius: ['59%', '73%'],
 	            avoidLabelOverlap: false,
-	            center:['33%', '50%'],
+	            center:['37%', '50%'],
 	            label: {
 	                normal: {
 	                    show: true,

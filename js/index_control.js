@@ -186,3 +186,27 @@ function change_page(){
 	addhistory(sendUrl);
 }
 
+function more_looking_job(){
+	var sendUrl = "looking-job";
+	sendSearchUrl(sendUrl);
+}
+
+function more_discovery_talent(){
+	var sendUrl = "discovery_talent";
+	sendSearchUrl(sendUrl);
+}
+
+function more_find_task(){
+	var sendUrl = "find_task";
+	sendSearchUrl(sendUrl);
+}
+
+function more_find_server(){
+	var sendUrl = "find_server";
+	sendSearchUrl(sendUrl);
+}
+
+function more_import_consult(){
+	var sendUrl = "import_consult";
+	sendSearchUrl(sendUrl);
+}

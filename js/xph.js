@@ -20,7 +20,7 @@ option = {
         itemWidth:16,
         itemHight:16,
         // left:'right',
-        right: '18%',
+        right: '7%',
         top: 120,
         width:200,
         height:'',
@@ -72,7 +72,7 @@ option = {
             type:'pie',
             radius: ['50%', '62%'],
             avoidLabelOverlap: false,
-            center:['35%', '50%'],
+            center:['38%', '50%'],
             label: {
                 normal: {
                     show: true,

@@ -45,9 +45,7 @@ input[type=text]{
     height: 120px;
     left:390px;
     top:70px;
-    border-radius: 100%;
     background-color: #fff;
-    /*background-image: url(../img/rencai_pic.png);*/
 }
 .head .lg img{
     position: absolute;
@@ -56,6 +54,8 @@ input[type=text]{
     left: 0;
     right: 0;
     margin: auto;
+    width: 106px;
+    height: 106px;
 
 }
 .head .lg .name{

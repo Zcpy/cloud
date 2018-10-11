@@ -63,7 +63,7 @@ function CollectService(){
 }
 
 function Preview_PublishTask_Edit(){
-	var nor_sendUrl = "Preview_PublisTask_Edit.html";
+	var nor_sendUrl = "Preview_PublishTask_Edit.html";
 	nor_urlLoad(nor_sendId,nor_sendUrl);
 }
 
@@ -71,4 +71,5 @@ function preview_person_resume(){
 	var nor_sendUrl = "preview_person_resume.html";
 	nor_urlLoad(nor_sendId,nor_sendUrl);
 }
+
 

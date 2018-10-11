@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title></title>
 <!--		<link rel="stylesheet" href="../css/bootstrap.min.css" />-->
+<!--<script type="text/javascript" src="../js/jquery-1.11.1.min.js" ></script>-->
 	</head>
 	<body>
 		<div id="collecttask">
@@ -28,7 +29,7 @@
 					<div class="collecttask_a_update">
 						<span style="color: #999999;margin-top: 6px;">发布时间：2018-09-08</span>
 						<div class="collecttask_a_operation">
-							<a href="javascript:void(0)"><span style="color: #1874dd;">预览</span></a>
+							<a id="test" class="trigger" href="javascript:;"><span style="color: #1874dd;">预览</span></a>
 							<span class="divider">|</span>
 							<a href="javascript:void(0)"><span style="color: #ff0000;">删除</span></a>
 						</div>
@@ -36,6 +37,36 @@
 					<div class="clearfix"></div>
 					<div class="dottedline"></div>	
 				</div>
+				
+				<div class="modalBox" id="modalBox">
+				    <div class="overLay"></div>
+				    <div class="alertContent">
+				        <div class="describle">
+				        	<span class="ds01">微信公众号定制开发</span>
+				        	<span class="ds02">软件开发</span>
+				        	<span class="ds03">1000元</span>
+				        	<div class="clearfix"></div>
+				        </div>
+				        <div class="task">
+				        	<div class="task01">
+				        		<img  src="../img/yc_fabu.png"/>
+				        		<span>晟通科技有限公司</span>
+				        	</div>
+				        	<div class="task01">
+				        		<img src="../img/yc_biaoqian.png" />
+				        		<span>任务描述：开发微信五子棋小程序</span>
+				        	</div>
+				        	<div class="task01">
+				        		<img src="../img/yc_dianhua.png" />
+				        		<span>联系方式：18842682697</span>
+				        	</div>
+				        	<div class="exit">
+				        		<input id="close"  type="button" value="关闭" />
+				        	</div>
+				        </div>
+				    </div>
+				</div>
+				
 				<div class="collecttask_list_a">
 					<!--LOGO-->
 					<div class="collecttask_a_logo">
@@ -220,6 +251,25 @@
 				</div>
 			</div>
 		</div>
+		
+<script>
+/*    var trigger = document.getElementById("text");
+    var modal = document.getElementById("modalBox");
+    var oClose=document.getElementById('close');
+    trigger.onclick = function (){
+        modal.style.display = 'block';
+    }
+    oClose.onclick = function(){
+    	modal.style.display ='none';
+    }*/
+   $("#test").on("click",function(){
+   	$(".modalBox").css("display","block");
+   });
+   
+    $("#close").on("click",function(){
+   	$(".modalBox").css("display","none");
+   });
+</script>
 	</body>
 	<link rel="stylesheet" href="../css/CollectTask.css" />
 </html>

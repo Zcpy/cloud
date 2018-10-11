@@ -25,6 +25,11 @@
 	padding-top: 30px;
 }
 
+.informationdetails_position a, span{
+	text-decoration: none;
+	color: #999999;
+}
+
 .informationdetails_isolate{
 	height: 15px;
 	border-bottom: 1px #eeeeee solid;

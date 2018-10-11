@@ -24,7 +24,7 @@
 					<div class="service_a_update">
 						<span style="color: #999999;margin-top: 6px;">发布时间：2018-09-08</span>
 						<div class="service_a_operation">
-							<a href="javascript:void(0)"><span style="color: #1874dd;">预览</span></a>
+							<a id="test" class="trigger" href="javascript:;"><span style="color: #1874dd;">预览</span></a>
 							<span class="divider">|</span>
 							<a href="javascript:void(0)"><span style="color: #ff0000;">删除</span></a>
 						</div>
@@ -32,10 +32,44 @@
 					<div class="clearfix"></div>
 					<div class="dottedline"></div>	
 				</div>
+				<div class="modalBox" id="modalBox">
+				    <div class="overLay"></div>
+				    <div class="alertContent">
+				        <div class="describle">
+				        	<span class="ds01">张磊</span>
+				        	<span class="ds02">技术顾问/品牌建设</span>
+				        	<span class="ds04">工作经验</span>
+				        	<span class="ds03">10年</span>
+				        	
+				        	<div class="clearfix"></div>
+				        </div>
+				        <div class="task">
+				        	<div class="task01">
+				        		<img  src="../img/yc_yingyong.png"/>
+				        		<span>擅长领域：营销视频 广告片 影视后期 宣传片</span>
+				        	</div>
+				        	<div class="task01">
+				        		<img  src="../img/yc_zuopin.png"/>
+				        		<span>个人作品：淘宝年会宣传视频制作</span>
+				        	</div>
+				        	<div class="task01">
+				        		<img src="../img/yc_biaoqian.png" />
+				        		<span>个人标签：ERP软件开发</span>
+				        	</div>
+				        	<div class="task01">
+				        		<img src="../img/yc_dianhua.png" />
+				        		<span>联系方式：18842682697</span>
+				        	</div>
+				        	<div class="exit">
+				        		<input id="close"  type="button" value="关闭" />
+				        	</div>
+				        </div>
+				    </div>
+				</div>
 				<div class="service_list_a">
 					<!--LOGO-->
 					<div class="service_a_logo">
-						<img src="../img/4.png" />
+						<img src="../img/fangxing_12.png" />
 					</div>
 					<!--服务-->
 					<div class="service_a_people">
@@ -45,7 +79,7 @@
 					<div class="service_a_update">
 						<span style="color: #999999;margin-top: 6px;">发布时间：2018-09-08</span>
 						<div class="service_a_operation">
-							<a href="javascript:void(0)"><span style="color: #1874dd;">预览</span></a>
+							<a  href="javascript:void(0)"><span style="color: #1874dd;">预览</span></a>
 							<span class="divider">|</span>
 							<a href="javascript:void(0)"><span style="color: #ff0000;">删除</span></a>
 						</div>
@@ -53,6 +87,9 @@
 					<div class="clearfix"></div>
 					<div class="dottedline"></div>	
 				</div>
+				
+				
+				
 				<div class="service_list_a">
 					<!--LOGO-->
 					<div class="service_a_logo">
@@ -180,6 +217,16 @@
 				</div>
 			</div>
 		</div>
+		
+<script>
+   $("#test").on("click",function(){
+   	$(".modalBox").css("display","block");
+   });
+   
+    $("#close").on("click",function(){
+   	$(".modalBox").css("display","none");
+   });
+</script>
 	</body>
 	<link rel="stylesheet" href="../css/CollectService.css" />
 </html>

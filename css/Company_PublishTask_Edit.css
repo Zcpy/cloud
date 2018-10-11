@@ -33,7 +33,6 @@ select::-ms-expand{ display: none; };
 	position: absolute;
 	width: 118px;
 	height: 118px;
-	border-radius: 50%;
 	border: 6px solid #FFFFFF;
 	top: 40px;
 	left: 0;
