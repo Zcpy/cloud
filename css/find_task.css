@@ -418,3 +418,7 @@ div.f_t_searchbox input + input{
 	background-color: #1874dc;
 	float: left;
 }
+
+.f_t_divside_imghidden{
+	visibility: hidden;
+}
