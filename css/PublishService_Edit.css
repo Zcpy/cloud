@@ -16,25 +16,31 @@ select::-ms-expand{ display: none; };
 	color: #333333;	
 }
 .pbheader{
-	text-align: center;
 	position: relative;
+	width: 900px;
+	height: 210px;
 	display: block;
 }
 .pbimg01{
 	height: 130px;
-	width: 100%;
+	width: 900px;
 }
 .pbimg02{
-	position: absolute;
-	top: 70px;
-	left: 445px;
-	bottom: 0;
-	right: 0;
 	width: 106px;
 	height: 106px;
-	/*position: absolute;*/
+}
+
+.pb_imgcon{
+	position: absolute;
+	width: 118px;
+	height: 118px;
+	border-radius: 50%;
 	border: 6px solid #FFFFFF;
-	margin-left: -55px;
+	top: 40px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
 }
 .pbform{
 	margin: 100px 50px 0 50px;
