@@ -44,6 +44,22 @@ p{
 .gb-list{
 
 }
+.gb-list .list-picture{
+    overflow: hidden;
+}
+.gb-list .jsbj{
+    width: 540px;
+    height: 290px;
+}
+.gb-list .list-picture img{
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.gb-list .list-picture:hover img{
+    transform: scale(1.05);
+}
 .list-picture,.list-text{
     height: 240px;
     width: 600px;

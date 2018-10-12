@@ -24,11 +24,11 @@ body{
 }
 
 .wcl_head img{
-	transition: all 0.5s;
+	transition: all .3s ease-out 0s;
 }
 
 .wcl_head img:hover{
-	transform: scale(1.2);
+	transform: scale(1.05);
 }
 
 .wcl_headimg_1{
@@ -184,14 +184,15 @@ body{
 	height: 160px;
 	display: inline-block;
 	float: left;
+	cursor: pointer;
 }
 
 .wcl_infoimg img{
-	transition: all 0.5s;
+	transition: all .3s ease-out 0s;
 }
 
 .wcl_infoimg img:hover{
-	transform: scale(1.2);
+	transform: scale(1.05);
 }
 
 .wcl_infocontent{

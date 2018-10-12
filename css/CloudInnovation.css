@@ -31,7 +31,20 @@
 	width: 600px;
 	height: 240px;
 	float: left;
+	overflow: hidden;
 }
+
+.cloudinnovation_industry_logo img{
+	-o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.cloudinnovation_industry_logo:hover img{
+	transform: scale(1.05);
+}
+
+
 .cloudinnovation_industry_name{
 	width: 600px;
 	height: 240px;
@@ -67,6 +80,20 @@
 	/*padding-bottom: 100px;*/
 	margin: 0 auto;
 }
-.cloudinnovation_collaboration img{
+
+.cloudinnovation_collaboration_img{
+	float: left;
+	margin-left: 5px;
+	overflow: hidden;
+}
+.cloudinnovation_collaboration_img img{
 	width: 295px;
+	-o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.cloudinnovation_collaboration_img:hover img{
+	transform: scale(1.05);
 }

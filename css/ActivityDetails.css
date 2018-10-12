@@ -21,8 +21,15 @@
 	padding-right: 30px;
 }
 
+
 .activitydetails_position{
 	padding-top: 30px;
+}
+
+.activitydetails_position a,span{
+	text-decoration: none;
+	color: #999999;
+}
 }
 
 .activitydetails_isolate{

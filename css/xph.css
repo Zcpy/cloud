@@ -85,8 +85,18 @@ ul{
     width: 1200px;
     padding: 60px 0 100px 0;
 }
-.xf-list{
 
+.xf-list .list-picture{
+    overflow: hidden;
+}
+.xf-list .list-picture img{
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.xf-list .list-picture:hover img{
+    transform: scale(1.05);
 }
 .list-picture,.list-text{
     height: 240px;

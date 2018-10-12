@@ -58,6 +58,19 @@ body{
 	height: 160px;
 	display: inline-block;
 	float: left;
+	cursor: pointer;
+}
+
+.ic_infoimg img{
+	transition: all .3s ease-out 0s;
+}
+
+.ic_infoimg img:hover{
+	transform: scale(1.05);
+}
+
+.ic_hidden {
+    overflow: hidden;
 }
 
 .ic_infocontent{
@@ -149,6 +162,27 @@ body{
 	margin-right: 10px;
 	line-height: 44px;
 	outline: medium;
+}
+
+.ic_pagination span{
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #666666;
+	text-decoration: none;
+	width: 45px;
+	height: 44px;
+	border: none;
+	background-color: #FFFFFF;
+	display: inline-block;
+	outline: medium;
+	margin-right: 10px;
+	line-height: 44px;
+	outline: medium;
+}
+
+.ic_pagination a:hover{
+	color: #FFFFFF !important;
+	background-color: #1874dc !important;
 }
 
 @media only screen and (min-width: 1920px) {

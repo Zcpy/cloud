@@ -172,13 +172,13 @@ ul{
     overflow: hidden;
 }
 .sy-xqw-content .gx-picture img{
-    -o-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 .sy-xqw-content .gx-picture img:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 .sy-xqw-content .last{
     margin-right: 0;
@@ -234,14 +234,14 @@ ul{
     overflow: hidden;
 }
 .fyb-picture img{
-    -o-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 
 }
 .fyb-picture .pt-left:hover img{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 .fyb-picture p{
     height: 40px;
@@ -266,7 +266,7 @@ ul{
     overflow: hidden;
 }
 .fyb-picture .rt-left:hover img{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 .fyb-picture .rt-right{
     position: relative;
@@ -274,7 +274,7 @@ ul{
     overflow: hidden;
 }
 .fyb-picture .rt-right:hover img{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 .fyb-picture .r-top{
     height: 175px;
@@ -286,7 +286,7 @@ ul{
     overflow: hidden;
 }
 .fyb-picture .r-bottom:hover img{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 

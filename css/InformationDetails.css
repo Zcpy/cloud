@@ -30,6 +30,10 @@
 	color: #999999;
 }
 
+.informationdetails_position a:hover{
+	color: #1874DC;
+}
+
 .informationdetails_isolate{
 	height: 15px;
 	border-bottom: 1px #eeeeee solid;

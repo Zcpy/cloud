@@ -23,6 +23,7 @@
 	margin-left: 27%;
 	margin-top: 50px;
 	float: left;
+	overflow: hidden;
 }
 
 .kochiport_describle_b{
@@ -65,6 +66,7 @@
 	width: 200px;
 	display: block;
 	text-align: center;
+	overflow: hidden;
 }
 .kochiport_center_img01{
 	margin-left: 20.5%;
@@ -94,6 +96,7 @@
 	width: 380px;
 	display: block;
 	text-align: center;
+	overflow: hidden;
 }
 .kochiport_technology_img02 ,.kochiport_technology_img03{
 	float: left;
@@ -101,6 +104,7 @@
 	display: block;
 	text-align: center;
 	margin-left: 30px;
+	overflow: hidden;
 }
 
 .kochiport_service{
@@ -120,6 +124,7 @@
 	width: 600px;
 	height: 240px;
 	float: left;
+	overflow: hidden;
 }
 
 .kochiport_service_a_name{
@@ -136,3 +141,27 @@
 .kochiport_service_a_descrble span{
 	display: block;
 }
+
+.kochiport_center_img01 img,.kochiport_center_img02 img,.kochiport_center_img03 img,.kochiport_describle_a img{
+	-o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.kochiport_center_img01:hover img,.kochiport_center_img02:hover img,.kochiport_center_img03:hover img,.kochiport_describle_a:hover img{
+	transform: scale(1.05);
+}
+
+.kochiport_service_a_logo img,.kochiport_technology_img01 img,.kochiport_technology_img02 img,.kochiport_technology_img03 img{
+	-o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.kochiport_service_a_logo:hover img,.kochiport_technology_img01:hover img,.kochiport_technology_img02:hover img,.kochiport_technology_img03:hover img{
+    transform: scale(1.05);
+}
+
+
